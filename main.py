@@ -1,7 +1,7 @@
 
 import cv2
 
-
+print("Hello user".title())
 cascPath = 'raw.githubusercontent.com_shantnu_FaceDetect_master_haarcascade_frontalface_default.xml'
 cap = cv2.VideoCapture(0)
 FaceCascade = cv2.CascadeClassifier(cascPath)
